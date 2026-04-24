@@ -1,11 +1,14 @@
 # Code Evaluation Engine
 
-A simple Python tool that analyzes code structure and estimates complexity.
+Static analysis system for evaluating Python code complexity and structure.
+
+## Architecture
+- AST-based code analyzer
+- Service layer abstraction
+- Grading system
 
 ## Features
-- Counts functions
-- Detects loops
-- Basic complexity scoring using AST parsing
-
-## Purpose
-Helps evaluate code structure quality for learning and analysis.
+- Function detection
+- Loop analysis
+- Complexity scoring
+- Code grading
